@@ -1,37 +1,37 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Mi PWA</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>I love Cook</title>
 
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="manifest" href="manifest.json" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="manifest" href="manifest.json" />
 </head>
 
 <body>
 
 <!-- SETUP (solo primera vez) -->
 <div id="setupScreen" class="screen hidden">
-  <div class="card">
+<div class="card">
     <h1>Bienvenido 👋</h1>
     <p>Escribe tu nombre para empezar</p>
 
     <input id="nameInput" type="text" placeholder="Tu nombre..." />
 
     <button onclick="saveName()">Entrar</button>
-  </div>
+</div>
 </div>
 
 <!-- APP NORMAL -->
 <div id="appScreen" class="screen hidden">
-  <header>
+<header>
     <h2 id="greeting"></h2>
-  </header>
+</header>
 
-  <main>
+<main>
     <p>Esta es la app normal.</p>
-  </main>
+</main>
 </div>
 
 <script src="app.js"></script>

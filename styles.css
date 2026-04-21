@@ -32,6 +32,7 @@ margin-top: 10px;
 border-radius: 8px;
 border: none;
 outline: none;
+box-sizing: border-box;
 }
 
 button {
