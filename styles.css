@@ -1,57 +1,62 @@
+
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
+margin: 0;
+font-family: Arial, sans-serif;
+background: #0f172a;
+color: white;
 }
 
 .screen {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .hidden {
-  display: none;
+display: none;
 }
 
 .card {
-  background: #1e293b;
-  padding: 30px;
-  border-radius: 12px;
-  width: 300px;
-  text-align: center;
+background: #1e293b;
+padding: 30px;
+border-radius: 12px;
+width: 300px;
+text-align: center;
 }
 
 input {
-  width: 100%;
-  padding: 10px;
-  margin-top: 10px;
-  border-radius: 8px;
-  border: none;
-  outline: none;
+width: 100%;
+padding: 10px;
+margin-top: 10px;
+border-radius: 8px;
+border: none;
+outline: none;
 }
 
 button {
-  margin-top: 15px;
-  width: 100%;
-  padding: 10px;
-  border: none;
-  background: #3b82f6;
-  color: white;
-  border-radius: 8px;
-  cursor: pointer;
+margin-top: 15px;
+width: 100%;
+padding: 10px;
+border: none;
+background: #3b82f6;
+color: white;
+border-radius: 8px;
+cursor: pointer;
 }
 
 header {
-  padding: 20px;
-  background: #1e293b;
-  text-align: center;
-  position: top;
+padding: 20px;
+background: #1e293b;
+text-align: center;
+margin-bottom: 700px;
+margin-left:20px;
+border-radius: 8px;
 }
+
 #greeting {
 font-size: 34px;
 font-family: Lexend Deca, sans-serif;
 }
+
 
