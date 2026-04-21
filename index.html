@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi PWA</title>
+
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+
+<body>
+
+<!-- SETUP (solo primera vez) -->
+<div id="setupScreen" class="screen hidden">
+  <div class="card">
+    <h1>Bienvenido 👋</h1>
+    <p>Escribe tu nombre para empezar</p>
+
+    <input id="nameInput" type="text" placeholder="Tu nombre..." />
+
+    <button onclick="saveName()">Entrar</button>
+  </div>
+</div>
+
+<!-- APP NORMAL -->
+<div id="appScreen" class="screen hidden">
+  <header>
+    <h2 id="greeting"></h2>
+  </header>
+
+  <main>
+    <p>Esta es la app normal.</p>
+  </main>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
