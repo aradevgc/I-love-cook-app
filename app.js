@@ -39,3 +39,17 @@ function saveName() {
   showApp(name);
 }
 
+function toggleSection(id) {
+    const seccion = document.getElementById(id);
+    
+    // Si está oculta, la mostramos. Si no, la ocultamos.
+    if (seccion.style.display === "block") {
+        seccion.style.display = "none";
+    } else {
+        // Opcional: Ocultar las otras antes de abrir esta
+        // document.querySelectorAll('.content-box').forEach(el => el.style.display = 'none');
+        
+        seccion.style.display = "block";
+    }
+}
+

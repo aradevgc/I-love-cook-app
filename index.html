@@ -28,10 +28,26 @@
 <header>
     <h2 id="greeting"></h2>
 </header>
+</div>
+<div>
+    <p></p>
+</div>
+<div class="main-container">
+<button class="menu-btn" onclick="toggleSection('recetas')">RECETAS</button>
+<div id="recetas" class="content-box">
+<p>Aquí van todas las recetas...</p>
+</div>
 
-<main>
-    <p>Esta es la app normal.</p>
-</main>
+<button class="menu-btn" onclick="toggleSection('burgers')">HAMBURGUESAS</button>
+<div id="burgers" class="content-box">
+    <p>Aquí todas las burgers...</p>
+</div>
+
+<button class="menu-btn" onclick="toggleSection('pasta')">PASTA</button>
+<div id="pasta" class="content-box">
+    <p>Aquí todos los platos de pasta...</p>
+</div>
+
 </div>
 
 <script src="app.js"></script>
